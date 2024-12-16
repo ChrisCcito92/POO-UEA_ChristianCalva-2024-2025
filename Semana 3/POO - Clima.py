@@ -26,4 +26,3 @@ def main_temp():
     print(f"El promedio semanal de temperatura es: {promedio:.2f} grados")  # Imprime el promedio con dos decimales
 # Llama a la función principal
 main_temp()
-
