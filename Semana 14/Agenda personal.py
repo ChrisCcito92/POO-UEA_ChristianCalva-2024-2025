@@ -21,7 +21,7 @@ class AgendaApp:
         frame_left.grid(row=0, column=0, padx=10, pady=10, sticky="n")
 
         tk.Label(frame_left, text="Fecha:").pack()
-        self.date_entry = DateEntry(frame_left, width=12, background='darkblue', foreground='white', borderwidth=2)
+        self.date_entry = DateEntry(frame_left, width=12, background='black', foreground='white', borderwidth=2)
         self.date_entry.pack()
 
         # Contenedor derecho para la hora y la descripción
