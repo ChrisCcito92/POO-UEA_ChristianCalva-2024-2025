@@ -6,7 +6,7 @@ class TaskManagerApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Gestor de Tareas")
-        self.root.geometry("600x450")
+        self.root.geometry("650x450")
 
         self.tasks = []
 
